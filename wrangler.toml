@@ -1,0 +1,14 @@
+name = "s3-search-web"
+main = "src/index.js"
+compatibility_date = "2025-04-08"
+
+[site]
+bucket = "./out"
+
+[build]
+command = "npm run build"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "s3_search_db"
+database_id = "local"
